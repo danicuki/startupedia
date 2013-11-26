@@ -1,0 +1,53 @@
+<h1>Listing startups</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Short description</th>
+    <th>Details url</th>
+    <th>Homepage url</th>
+    <th>Blog url</th>
+    <th>Blog feed url</th>
+    <th>Twitter username</th>
+    <th>Number of employees</th>
+    <th>Linkedin url</th>
+    <th>Founding date</th>
+    <th>Country</th>
+    <th>City</th>
+    <th>State</th>
+    <th>Category</th>
+    <th>Phone</th>
+    <th>Email</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @startups.each do |startup| %>
+  <tr>
+    <td><%= startup.name %></td>
+    <td><%= startup.short_description %></td>
+    <td><%= startup.details_url %></td>
+    <td><%= startup.homepage_url %></td>
+    <td><%= startup.blog_url %></td>
+    <td><%= startup.blog_feed_url %></td>
+    <td><%= startup.twitter_username %></td>
+    <td><%= startup.number_of_employees %></td>
+    <td><%= startup.linkedin_url %></td>
+    <td><%= startup.founding_date %></td>
+    <td><%= startup.country %></td>
+    <td><%= startup.city %></td>
+    <td><%= startup.state %></td>
+    <td><%= startup.category %></td>
+    <td><%= startup.phone %></td>
+    <td><%= startup.email %></td>
+    <td><%= link_to 'Show', startup %></td>
+    <td><%= link_to 'Edit', edit_startup_path(startup) %></td>
+    <td><%= link_to 'Destroy', startup, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Startup', new_startup_path %>

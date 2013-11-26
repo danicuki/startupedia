@@ -1,0 +1,85 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @startup.name %>
+</p>
+
+<p>
+  <b>Short description:</b>
+  <%= @startup.short_description %>
+</p>
+
+<p>
+  <b>Details url:</b>
+  <%= @startup.details_url %>
+</p>
+
+<p>
+  <b>Homepage url:</b>
+  <%= @startup.homepage_url %>
+</p>
+
+<p>
+  <b>Blog url:</b>
+  <%= @startup.blog_url %>
+</p>
+
+<p>
+  <b>Blog feed url:</b>
+  <%= @startup.blog_feed_url %>
+</p>
+
+<p>
+  <b>Twitter username:</b>
+  <%= @startup.twitter_username %>
+</p>
+
+<p>
+  <b>Number of employees:</b>
+  <%= @startup.number_of_employees %>
+</p>
+
+<p>
+  <b>Linkedin url:</b>
+  <%= @startup.linkedin_url %>
+</p>
+
+<p>
+  <b>Founding date:</b>
+  <%= @startup.founding_date %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%= @startup.country %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @startup.city %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @startup.state %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @startup.category %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @startup.phone %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @startup.email %>
+</p>
+
+
+<%= link_to 'Edit', edit_startup_path(@startup) %> |
+<%= link_to 'Back', startups_path %>

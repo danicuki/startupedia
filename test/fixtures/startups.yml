@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  short_description: MyText
+  details_url: MyString
+  homepage_url: MyString
+  blog_url: MyString
+  blog_feed_url: MyString
+  twitter_username: MyString
+  number_of_employees: 1
+  linkedin_url: MyString
+  founding_date: 2013-11-26
+  country: MyString
+  city: MyString
+  state: MyString
+  category: MyString
+  phone: MyString
+  email: MyString
+
+two:
+  name: MyString
+  short_description: MyText
+  details_url: MyString
+  homepage_url: MyString
+  blog_url: MyString
+  blog_feed_url: MyString
+  twitter_username: MyString
+  number_of_employees: 1
+  linkedin_url: MyString
+  founding_date: 2013-11-26
+  country: MyString
+  city: MyString
+  state: MyString
+  category: MyString
+  phone: MyString
+  email: MyString

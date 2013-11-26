@@ -1,0 +1,6 @@
+development:
+  crunchbase_key: YOUR_KEY
+test:
+  crunchbase_key: YOUR_KEY
+production:
+  crunchbase_key: YOUR_KEY
